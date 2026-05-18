@@ -57,7 +57,7 @@ export default async function Home() {
   ]);
 
   return (
-    <div className="bg-[var(--suchure-bg)] text-[var(--suchure-ink)]">
+    <div className="bg-[var(--datastitch-bg)] text-[var(--datastitch-ink)]">
       <TopNav />
       <div id="home" className="scroll-mt-24">
         <HeroSection />

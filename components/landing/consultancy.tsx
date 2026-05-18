@@ -2,17 +2,17 @@ const trendBars = [44, 56, 74, 18, 58, 52, 52, 74, 56];
 
 export function ConsultancySection() {
   return (
-    <section className="bg-[var(--suchure-navy)] px-6 py-20 text-white sm:px-10 lg:px-16">
+    <section className="bg-[var(--datastitch-navy)] px-6 py-20 text-white sm:px-10 lg:px-16">
       <div className="mx-auto max-w-7xl space-y-10">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-14">
           <div className="space-y-5">
-            <span className="inline-flex rounded-full border border-[var(--suchure-accent)]/30 bg-[var(--suchure-accent)]/12 px-4 py-1 text-sm font-semibold text-[var(--suchure-accent)]">
-              Suchure Consultancy
+            <span className="inline-flex rounded-full border border-[var(--datastitch-accent)]/30 bg-[var(--datastitch-accent)]/12 px-4 py-1 text-sm font-semibold text-[var(--datastitch-accent)]">
+              datastitch Consultancy
             </span>
             <h2 className="max-w-xl text-balance text-4xl font-semibold leading-tight sm:text-5xl">
-              AI <span className="text-[var(--suchure-accent)]">governance </span> isn&apos;t optional. Your evidence shouldn&apos;t be improvised.
+              AI <span className="text-[var(--datastitch-accent)]">governance </span> isn&apos;t optional. Your evidence shouldn&apos;t be improvised.
             </h2>
-            <button className="inline-flex rounded-full bg-[var(--suchure-accent)] px-6 py-3 text-sm font-semibold text-[var(--suchure-accent-ink)] transition hover:-translate-y-0.5 hover:brightness-110">
+            <button className="inline-flex rounded-full bg-[var(--datastitch-accent)] px-6 py-3 text-sm font-semibold text-[var(--datastitch-accent-ink)] transition hover:-translate-y-0.5 hover:brightness-110">
               Book Consultation Call
             </button>
           </div>
@@ -49,10 +49,10 @@ export function ConsultancySection() {
                       <div key={index} className="relative flex-1">
                         {isActive ? (
                           <>
-                            <div className="absolute -top-13 left-1/2 -translate-x-1/2 rounded-full bg-[var(--suchure-accent)] px-3 py-1 text-[11px] font-semibold text-[var(--suchure-accent-ink)] shadow-[0_0_12px_rgba(61,223,208,0.5)]">
+                            <div className="absolute -top-13 left-1/2 -translate-x-1/2 rounded-full bg-[var(--datastitch-accent)] px-3 py-1 text-[11px] font-semibold text-[var(--datastitch-accent-ink)] shadow-[0_0_12px_rgba(61,223,208,0.5)]">
                               75% Optimal
                             </div>
-                            <div className="absolute -top-2 left-1/2 h-1.5 w-1.5 -translate-x-1/2 rounded-full bg-[var(--suchure-accent)]" />
+                            <div className="absolute -top-2 left-1/2 h-1.5 w-1.5 -translate-x-1/2 rounded-full bg-[var(--datastitch-accent)]" />
                           </>
                         ) : null}
                         <div
@@ -78,7 +78,7 @@ export function ConsultancySection() {
               </article>
 
               <article className="rounded-2xl border border-white/20 bg-white/[0.04] p-5">
-                <div className="mb-4 h-5 w-5 rounded-full border border-[var(--suchure-accent)]/70" />
+                <div className="mb-4 h-5 w-5 rounded-full border border-[var(--datastitch-accent)]/70" />
                 <h3 className="text-2xl font-semibold text-white/90">Architecture Review</h3>
                 <p className="mt-2 text-sm leading-relaxed text-white/75">
                   Deep-dive technical assessment of your AI pipeline&apos;s integrity and security.
@@ -88,7 +88,7 @@ export function ConsultancySection() {
             </div>
 
             <article className="rounded-2xl border border-white/20 bg-white/[0.04] p-5 lg:col-span-5">
-              <div className="mb-4 h-5 w-5 rounded-full border border-[var(--suchure-accent)]/70" />
+              <div className="mb-4 h-5 w-5 rounded-full border border-[var(--datastitch-accent)]/70" />
               <h3 className="text-3xl font-semibold text-white/90">Policy Development</h3>
               <p className="mt-2 text-sm leading-relaxed text-white/75">
                 Custom-built AI governance policies that scale with your innovation roadmap.
@@ -104,7 +104,7 @@ export function ConsultancySection() {
                     Ongoing oversight to detect bias, drift, and regulatory non-compliance in production models.
                   </p>
                 </div>
-                <div className="mx-auto grid h-30 w-30 place-items-center rounded-full bg-[conic-gradient(var(--suchure-accent)_0_75%,rgba(255,255,255,0.28)_75%_85%,rgba(255,255,255,0.12)_85%_100%)] p-4">
+                <div className="mx-auto grid h-30 w-30 place-items-center rounded-full bg-[conic-gradient(var(--datastitch-accent)_0_75%,rgba(255,255,255,0.28)_75%_85%,rgba(255,255,255,0.12)_85%_100%)] p-4">
                   <div className="grid h-full w-full place-items-center rounded-full bg-[#0b2b53] text-5xl font-semibold">75%</div>
                 </div>
               </div>

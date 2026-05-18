@@ -1,5 +1,6 @@
 import { SectionHeading } from './section-heading';
 import Image from 'next/image';
+import { assetPath } from '@/lib/asset-path';
 
 const ecosystemItems = [
     {
@@ -24,7 +25,7 @@ const ecosystemItems = [
 
 export function AcademyEcosystemSection() {
     return (
-        <section className='bg-[var(--suchure-cream)] px-6 py-20 sm:px-10 lg:px-16'>
+        <section className='bg-[var(--datastitch-cream)] px-6 py-20 sm:px-10 lg:px-16'>
             <div className='mx-auto max-w-6xl'>
                 <SectionHeading
                     title='The Academy Ecosystem'
@@ -36,20 +37,20 @@ export function AcademyEcosystemSection() {
                     {ecosystemItems.map((item) => (
                         <article
                             key={item.title}
-                            className='rounded-2xl border border-2 border-[var(--suchure-border)] bg-white'
+                            className='rounded-2xl border border-2 border-[var(--datastitch-border)] bg-white'
                         >
                             <Image
-                                src={item.image}
+                                src={assetPath(item.image)}
                                 alt={item.title}
                                 width={375}
                                 height={185}
                                 className='h-40 w-full rounded-xl object-cover'
                             />
-                            <div className='p-6 border-t-2 border-[var(--suchure-border)]'>
-                                <h3 className='text-xl font-bold text-[var(--suchure-ink)]'>
+                            <div className='p-6 border-t-2 border-[var(--datastitch-border)]'>
+                                <h3 className='text-xl font-bold text-[var(--datastitch-ink)]'>
                                     {item.title}
                                 </h3>
-                                <p className='mt-2 text-sm text-[var(--suchure-muted)]'>
+                                <p className='mt-2 text-sm text-[var(--datastitch-muted)]'>
                                     {item.description}
                                 </p>
                             </div>

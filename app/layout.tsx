@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Suchure | Governance-first AI training & advisory",
+  title: "datastitch | Governance-first AI training & advisory",
   description:
-    "Suchure equips data professionals and regulated organisations with governance-first AI capabilities.",
+    "datastitch equips data professionals and regulated organisations with governance-first AI capabilities.",
 };
 
 export default function RootLayout({

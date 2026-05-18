@@ -44,7 +44,7 @@ function PathCard({ icon, title, description, points, cta }: PathCardProps) {
 
 export function TwoPathsSection() {
   return (
-    <section className="bg-[var(--suchure-navy)] px-6 py-20 sm:px-10 lg:px-16">
+    <section className="bg-[var(--datastitch-navy)] px-6 py-20 sm:px-10 lg:px-16">
       <div className="mx-auto max-w-6xl space-y-10">
         <div className="text-center">
           <p className="inline-flex rounded-full border border-[#135a86] bg-[#083f64]/70 px-4 py-1.5 text-sm font-semibold text-[#3de8dc]">
@@ -54,7 +54,7 @@ export function TwoPathsSection() {
             One platform. Two paths to responsible AI.
           </h2>
           <p className="mx-auto mt-4 max-w-3xl text-lg leading-relaxed text-[#b1c7dc]">
-            Whether you&apos;re advancing your career or governing your organisation&apos;s AI systems, Suchure
+            Whether you&apos;re advancing your career or governing your organisation&apos;s AI systems, datastitch
             meets you where you are.
           </p>
         </div>
