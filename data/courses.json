@@ -1,0 +1,32 @@
+[
+  {
+    "id": "fabric-analytics",
+    "title": "Microsoft Fabric Analytics Engineer",
+    "level": "Beginner",
+    "duration": "40 hours",
+    "rating": "4.8 (234)",
+    "price": "£299.50",
+    "originalPrice": "£350.89",
+    "description": "Build governance-aware analytics pipelines with Fabric, from ingestion to decision-grade dashboards."
+  },
+  {
+    "id": "governance-foundations",
+    "title": "AI Governance & Ethics Foundations",
+    "level": "Beginner",
+    "duration": "8 weeks",
+    "rating": "4.8 (24)",
+    "price": "£29",
+    "originalPrice": "£350.89",
+    "description": "Learn practical governance patterns mapped to UK GDPR, EU AI Act, and ISO/IEC 42001 expectations."
+  },
+  {
+    "id": "azure-openai",
+    "title": "Azure OpenAI & Semantic Kernel",
+    "level": "Beginner",
+    "duration": "40 hours",
+    "rating": "4.8 (234)",
+    "price": "£299.50",
+    "originalPrice": "£350.89",
+    "description": "Ship secure copilots with prompt controls, evaluation loops, and auditability built in from day one."
+  }
+]

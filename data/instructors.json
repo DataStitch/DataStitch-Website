@@ -1,0 +1,30 @@
+[
+  {
+    "id": "elena-vance",
+    "name": "Dr. Elena Vance",
+    "role": "Senior AI Solutions Architect",
+    "rating": "5.0",
+    "quote": "I teach what I deploy: model risk checks, architecture trade-offs, and governance evidence that stands up in audit."
+  },
+  {
+    "id": "wale-ade",
+    "name": "Wale Adeyemi",
+    "role": "MLOps Lead, Regulated FinTech",
+    "rating": "4.9",
+    "quote": "Learners leave with production-ready patterns, not theory—monitoring, rollback, and traceability included."
+  },
+  {
+    "id": "amina-khan",
+    "name": "Amina Khan",
+    "role": "AI Governance Consultant",
+    "rating": "4.9",
+    "quote": "The focus is practical: map regulation to engineering tasks your team can execute next sprint."
+  },
+  {
+    "id": "ife-obi",
+    "name": "Ife Obi",
+    "role": "Data Platform Principal",
+    "rating": "4.8",
+    "quote": "We bridge the gap between platform architecture and policy, so governance does not slow delivery."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "fabric-bootcamp",
+    "title": "Microsoft Fabric Data Engineering Bootcamp",
+    "description": "End-to-end Lakehouse pipelines, Spark notebooks, and real-time analytics in an enterprise simulation.",
+    "level": "Intermediate",
+    "duration": "8 Weeks",
+    "rating": "4.8 (234)",
+    "date": "20 Apr, 2026",
+    "price": "£299.50"
+  },
+  {
+    "id": "governance-bootcamp",
+    "title": "AI Governance & Ethics Bootcamp",
+    "description": "Build technical and regulatory fluency to lead governance programmes across UK GDPR and EU AI Act.",
+    "level": "Beginner",
+    "duration": "8 Weeks",
+    "rating": "4.8 (234)",
+    "date": "20 Apr, 2026",
+    "price": "£299.50"
+  },
+  {
+    "id": "mlops-bootcamp",
+    "title": "Production MLOps & Model Risk Bootcamp",
+    "description": "From model notebook to production deployment with monitoring, drift detection, and rollback strategies.",
+    "level": "Advanced",
+    "duration": "8 Weeks",
+    "rating": "4.8 (234)",
+    "date": "20 Apr, 2026",
+    "price": "£299.50"
+  }
+]
