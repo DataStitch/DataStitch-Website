@@ -1,0 +1,24 @@
+{
+  "breadcrumb": {
+    "section": "Academy",
+    "track": "Analytics Engineering"
+  },
+  "hero": {
+    "title": "Microsoft Fabric Analytics Engineer",
+    "description": "Master end-to-end data engineering and analytics on Microsoft Fabric. Build production-ready pipelines, semantic models, and governance-ready lakehouses used by enterprise teams.",
+    "ctaLabel": "Enroll Now",
+    "ctaHref": "/consultation",
+    "rating": "4.8 (234 rating)",
+    "learners": "1,240 learners enrolled",
+    "image": "/academy_imgs/deep-learning.png",
+    "imageAlt": "Microsoft Fabric learning workspace"
+  },
+  "nextStepCta": {
+    "title": "Your next role starts with your next step.",
+    "description": "Join thousands of data and AI professionals building the skills that senior roles demand with a learning path designed specifically for where you want to go.",
+    "primaryActionLabel": "Find My Learning Path",
+    "primaryActionHref": "/consultation",
+    "secondaryActionLabel": "Browse All Course",
+    "secondaryActionHref": "/academy"
+  }
+}

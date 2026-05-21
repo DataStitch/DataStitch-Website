@@ -1,6 +1,7 @@
 import { HeroCardsCluster } from "./hero-cards-cluster";
 import Image from "next/image";
 import { assetPath } from "@/lib/asset-path";
+import Link from "next/link";
 
 export function HeroSection() {
   return (
@@ -23,12 +24,18 @@ export function HeroSection() {
                 width={96}
                 height={76}
               />
-              <button className="w-full rounded-full bg-[var(--datastitch-accent)] px-6 py-3 text-sm font-semibold text-[var(--datastitch-accent-ink)] sm:w-auto">
+              <Link
+                href="/consultation"
+                className="w-full rounded-full bg-[var(--datastitch-accent)] px-6 py-3 text-center text-sm font-semibold text-[var(--datastitch-accent-ink)] sm:w-auto"
+              >
                 Book Consultation Call
-              </button>
-              <button className="w-full rounded-full border border-white/25 px-6 py-3 text-sm font-semibold text-white sm:w-auto">
+              </Link>
+              <Link
+                href="/academy"
+                className="w-full rounded-full border border-white/25 px-6 py-3 text-center text-sm font-semibold text-white sm:w-auto"
+              >
                 Explore Academy
-              </button>
+              </Link>
             </div>
           </div>
         </div>

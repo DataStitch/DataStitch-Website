@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { ReactNode } from "react";
 
 type PathCardProps = {
@@ -6,9 +7,10 @@ type PathCardProps = {
   description: string;
   points: string[];
   cta: string;
+  ctaLink: string;
 };
 
-function PathCard({ icon, title, description, points, cta }: PathCardProps) {
+function PathCard({ icon, title, description, points, cta, ctaLink }: PathCardProps) {
   return (
     <article className="rounded-3xl border border-white/30 bg-[linear-gradient(180deg,rgba(33,72,113,0.52)_0%,rgba(20,49,83,0.88)_100%)] p-6 shadow-[0_18px_48px_rgba(0,0,0,0.28)] sm:p-8">
       <div className="grid gap-7 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] lg:items-start">
@@ -19,8 +21,13 @@ function PathCard({ icon, title, description, points, cta }: PathCardProps) {
           <h3 className="mt-6 text-3xl font-semibold tracking-tight text-[#e9f5ff]">{title}</h3>
           <p className="mt-3 max-w-lg text-lg leading-relaxed text-[#b7cee5]">{description}</p>
           <button className="mt-7 inline-flex items-center gap-2 rounded-full bg-[#31e0d3] px-7 py-3 text-sm font-semibold text-[#064a56] transition-transform duration-200 hover:-translate-y-0.5">
-            <span>{cta}</span>
-            <span aria-hidden="true">↗</span>
+             <Link
+                href={ctaLink}
+                className="inline-flex items-center gap-2"
+              >
+                {cta}
+                <span aria-hidden="true">↗</span>
+              </Link>
           </button>
         </div>
 
@@ -79,6 +86,7 @@ export function TwoPathsSection() {
               "Community on Microsoft Teams",
             ]}
             cta="Explore Academy"
+            ctaLink="/academy"
           />
 
           <PathCard
@@ -98,6 +106,7 @@ export function TwoPathsSection() {
               "Board-ready evidence and audit log export",
             ]}
             cta="Request a Demo"
+            ctaLink="/demo"
           />
         </div>
       </div>
