@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import { useMemo, useState } from "react";
@@ -8,7 +8,7 @@ const TESTIMONIALS = [
   {
     id: "chidi-main",
     quote:
-      "Suchure transformed our AI implementation strategy. We went from 'experimental' to 'enterprise-grade' in less than 6 months.",
+      "DataTriad transformed our AI implementation strategy. We went from 'experimental' to 'enterprise-grade' in less than 6 months.",
     name: "Chidima Nanao",
     role: "Chief Data Officer - Global FinTech Group",
   },
@@ -68,10 +68,10 @@ export function AcademySocialProof() {
   };
 
   return (
-    <section className="bg-[var(--datastitch-bg)] px-6 py-16 sm:px-10 lg:px-16">
+    <section className="bg-[var(--datatriad-bg)] px-6 py-16 sm:px-10 lg:px-16">
       <div className="mx-auto max-w-6xl">
         <div className="text-center">
-          <h2 className="text-4xl font-bold leading-tight text-[var(--datastitch-ink)] sm:text-5xl">
+          <h2 className="text-4xl font-bold leading-tight text-[var(--datatriad-ink)] sm:text-5xl">
             From where they were to where they are now
           </h2>
 
@@ -84,11 +84,11 @@ export function AcademySocialProof() {
                   alt="Learner avatar"
                   width={38}
                   height={38}
-                  className="rounded-full border-2 border-[var(--datastitch-bg)] bg-[var(--datastitch-soft)]"
+                  className="rounded-full border-2 border-[var(--datatriad-bg)] bg-[var(--datatriad-soft)]"
                 />
               ))}
             </div>
-            <p className="text-sm text-[var(--datastitch-muted)] sm:text-base">
+            <p className="text-sm text-[var(--datatriad-muted)] sm:text-base">
               Trusted by over 50,000+ learners and professionals
             </p>
           </div>
@@ -98,23 +98,23 @@ export function AcademySocialProof() {
           {visibleTestimonials.map((testimonial) => (
             <article
               key={testimonial.id}
-              className="rounded-2xl border border-[var(--datastitch-border)] bg-white p-6 shadow-[0_6px_20px_rgba(0,0,0,0.04)]"
+              className="rounded-2xl border border-[var(--datatriad-border)] bg-white p-6 shadow-[0_6px_20px_rgba(0,0,0,0.04)]"
             >
-              <p className="text-lg leading-snug text-[var(--datastitch-ink)]">{testimonial.quote}</p>
+              <p className="text-lg leading-snug text-[var(--datatriad-ink)]">{testimonial.quote}</p>
 
-              <div className="mt-5 flex items-center justify-between gap-3 border-t border-[var(--datastitch-border)] pt-4">
+              <div className="mt-5 flex items-center justify-between gap-3 border-t border-[var(--datatriad-border)] pt-4">
                 <div className="flex items-center gap-3">
                   <Image
                     src={assetPath("/academy_imgs/user-placeholder.svg")}
                     alt={testimonial.name}
                     width={34}
                     height={34}
-                    className="rounded-full bg-[var(--datastitch-soft)]"
+                    className="rounded-full bg-[var(--datatriad-soft)]"
                   />
 
                   <div>
-                    <p className="text-sm font-semibold text-[var(--datastitch-ink)]">{testimonial.name}</p>
-                    <p className="text-xs text-[var(--datastitch-muted)]">{testimonial.role}</p>
+                    <p className="text-sm font-semibold text-[var(--datatriad-ink)]">{testimonial.name}</p>
+                    <p className="text-xs text-[var(--datatriad-muted)]">{testimonial.role}</p>
                   </div>
                 </div>
 
@@ -129,7 +129,7 @@ export function AcademySocialProof() {
             type="button"
             aria-label="Previous testimonials"
             onClick={goToPrev}
-            className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-[var(--datastitch-border)] text-[var(--datastitch-muted)]"
+            className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-[var(--datatriad-border)] text-[var(--datatriad-muted)]"
           >
             &lt;
           </button>
@@ -141,7 +141,7 @@ export function AcademySocialProof() {
               aria-label={`Go to testimonials page ${idx + 1}`}
               onClick={() => setPageIndex(idx)}
               className={`h-3 w-3 rounded-full ${
-                idx === pageIndex ? "bg-[var(--datastitch-cyan-strong)]" : "bg-[var(--datastitch-border)]"
+                idx === pageIndex ? "bg-[var(--datatriad-cyan-strong)]" : "bg-[var(--datatriad-border)]"
               }`}
             />
           ))}
@@ -150,7 +150,7 @@ export function AcademySocialProof() {
             type="button"
             aria-label="Next testimonials"
             onClick={goToNext}
-            className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-[var(--datastitch-border)] text-[var(--datastitch-muted)]"
+            className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-[var(--datatriad-border)] text-[var(--datatriad-muted)]"
           >
             &gt;
           </button>

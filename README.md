@@ -65,4 +65,4 @@ The site URL will be:
 - Static export is enabled with `output: "export"`.
 - `next/image` is set to `unoptimized: true` for static hosting compatibility.
 - `basePath` and `assetPrefix` are applied automatically for production builds on project repositories.
-- If `GITHUB_REPOSITORY` is not set (for example, some local builds), this project falls back to `suchure_landing`.
+- If `GITHUB_REPOSITORY` is not set (for example, some local builds), this project falls back to `datatriad_landing`.

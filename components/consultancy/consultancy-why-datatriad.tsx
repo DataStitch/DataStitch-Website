@@ -1,4 +1,4 @@
-const props = [
+﻿const props = [
   {
     id: 'integrity',
     icon: (
@@ -39,13 +39,13 @@ const props = [
   },
 ];
 
-export function ConsultancyWhySuchure() {
+export function ConsultancyWhyDataTriad() {
   return (
     <section className="bg-white px-6 py-20 sm:px-10 lg:px-16">
       <div className="mx-auto max-w-6xl">
         {/* Heading */}
         <div className="mb-12 space-y-3 text-center">
-          <span className="inline-flex rounded-full border border-[var(--datastitch-accent)]/30 bg-[var(--datastitch-accent)]/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-[var(--datastitch-accent-ink)]">
+          <span className="inline-flex rounded-full border border-[var(--datatriad-accent)]/30 bg-[var(--datatriad-accent)]/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-[var(--datatriad-accent-ink)]">
             The Engagement Journey
           </span>
           <h2 className="text-3xl font-bold text-[#0a1628] sm:text-4xl">
@@ -61,7 +61,7 @@ export function ConsultancyWhySuchure() {
               className="space-y-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition hover:shadow-md"
             >
               {/* Icon */}
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[var(--datastitch-accent)]/10 text-[var(--datastitch-accent-ink)]">
+              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[var(--datatriad-accent)]/10 text-[var(--datatriad-accent-ink)]">
                 {p.icon}
               </div>
               <div className="space-y-2">

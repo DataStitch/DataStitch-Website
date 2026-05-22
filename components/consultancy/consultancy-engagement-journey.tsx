@@ -1,4 +1,4 @@
-import Image from 'next/image';
+﻿import Image from 'next/image';
 import Link from 'next/link';
 import { assetPath } from '@/lib/asset-path';
 
@@ -35,11 +35,11 @@ const phases = [
 
 export function ConsultancyEngagementJourney() {
   return (
-    <section className="[background:var(--datastitch-gradient)] px-6 py-20 sm:px-10 lg:px-16">
+    <section className="[background:var(--datatriad-gradient)] px-6 py-20 sm:px-10 lg:px-16">
       <div className="mx-auto max-w-6xl">
         {/* Heading */}
         <div className="mb-12 max-w-2xl space-y-4">
-          <span className="inline-flex rounded-full border border-[var(--datastitch-accent)]/30 bg-[var(--datastitch-accent)]/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-[var(--datastitch-accent)]">
+          <span className="inline-flex rounded-full border border-[var(--datatriad-accent)]/30 bg-[var(--datatriad-accent)]/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-[var(--datatriad-accent)]">
             The Engagement Journey
           </span>
           <h2 className="text-3xl font-bold text-white sm:text-4xl">
@@ -51,7 +51,7 @@ export function ConsultancyEngagementJourney() {
           </p>
           <Link
             href="/consultation"
-            className="inline-flex items-center gap-2 rounded-full bg-[var(--datastitch-accent)] px-6 py-3 text-sm font-semibold text-[var(--datastitch-accent-ink)] transition hover:brightness-110"
+            className="inline-flex items-center gap-2 rounded-full bg-[var(--datatriad-accent)] px-6 py-3 text-sm font-semibold text-[var(--datatriad-accent-ink)] transition hover:brightness-110"
           >
             Book A Call Now
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -76,13 +76,13 @@ export function ConsultancyEngagementJourney() {
                   className="object-cover"
                 />
                 {/* Phase number */}
-                <div className="absolute left-3 top-3 flex h-7 w-7 items-center justify-center rounded-full bg-[var(--datastitch-accent)] text-xs font-bold text-[var(--datastitch-accent-ink)]">
+                <div className="absolute left-3 top-3 flex h-7 w-7 items-center justify-center rounded-full bg-[var(--datatriad-accent)] text-xs font-bold text-[var(--datatriad-accent-ink)]">
                   {i + 1}
                 </div>
               </div>
               {/* Content */}
               <div className="p-4">
-                <p className="text-sm font-bold text-[var(--datastitch-accent)]">{p.title}</p>
+                <p className="text-sm font-bold text-[var(--datatriad-accent)]">{p.title}</p>
                 <p className="mt-1.5 text-xs leading-relaxed text-white/70">{p.description}</p>
               </div>
             </div>

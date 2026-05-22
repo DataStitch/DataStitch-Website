@@ -1,4 +1,4 @@
-export function QuickScanDemo() {
+﻿export function QuickScanDemo() {
   return (
     <div className="w-full max-w-sm space-y-3">
       {/* Intake progress card */}
@@ -30,12 +30,12 @@ export function QuickScanDemo() {
         <div className="mt-4 space-y-2">
           {/* Bar */}
           <div className="h-1.5 w-full overflow-hidden rounded-full bg-gray-100">
-            <div className="h-full w-1/2 rounded-full bg-[var(--datastitch-accent)]" />
+            <div className="h-full w-1/2 rounded-full bg-[var(--datatriad-accent)]" />
           </div>
           {/* Labels */}
           <div className="flex items-center justify-between">
             <span className="text-xs text-gray-500">Progress: Step 2 of 4</span>
-            <span className="text-xs font-semibold text-[var(--datastitch-accent-ink)]">50%</span>
+            <span className="text-xs font-semibold text-[var(--datatriad-accent-ink)]">50%</span>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@ export function QuickScanDemo() {
           ].map((s) => (
             <div key={s.step} className="flex items-center gap-2.5">
               <div className={`flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full ${
-                s.done ? 'bg-[var(--datastitch-accent)]' : s.active ? 'border-2 border-[var(--datastitch-accent)] bg-white' : 'border-2 border-gray-200 bg-white'
+                s.done ? 'bg-[var(--datatriad-accent)]' : s.active ? 'border-2 border-[var(--datatriad-accent)] bg-white' : 'border-2 border-gray-200 bg-white'
               }`}>
                 {s.done && (
                   <svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="white" strokeWidth="2">

@@ -1,6 +1,6 @@
-export function AcademyHero() {
+﻿export function AcademyHero() {
   return (
-    <section className="relative overflow-hidden bg-[var(--datastitch-navy)] px-6 pb-14 pt-20 text-white sm:px-10 lg:px-16">
+    <section className="relative overflow-hidden bg-[var(--datatriad-navy)] px-6 pb-14 pt-20 text-white sm:px-10 lg:px-16">
       <div className="pointer-events-none absolute inset-x-0 top-0 h-56 bg-[radial-gradient(circle_at_top,_rgba(61,223,208,0.32),_transparent_60%)]" />
       <div className="mx-auto max-w-6xl">
         <span className="inline-flex rounded-full border border-white/25 bg-white/10 px-4 py-1 text-sm font-semibold text-white/90">

@@ -1,21 +1,21 @@
-@import 'tailwindcss';
+﻿@import 'tailwindcss';
 
 :root {
     --background: #f2f2f2;
     --foreground: #1a1a1a;
 
-    --datastitch-bg: #f2f2f2;
-    --datastitch-cream: #fafaf7;
-    --datastitch-navy: #001e3f;
-    --datastitch-navy-soft: #acd4ff;
-    --datastitch-ink: #1a1a1a;
-    --datastitch-muted: #555555;
-    --datastitch-accent: #3ddfd0;
-    --datastitch-accent-ink: #0e554f;
-    --datastitch-cyan-strong: #00428a;
-    --datastitch-border: #dddddd;
-    --datastitch-soft: rgba(61, 223, 208, 0.1);
-    --datastitch-gradient:
+    --datatriad-bg: #f2f2f2;
+    --datatriad-cream: #fafaf7;
+    --datatriad-navy: #001e3f;
+    --datatriad-navy-soft: #acd4ff;
+    --datatriad-ink: #1a1a1a;
+    --datatriad-muted: #555555;
+    --datatriad-accent: #3ddfd0;
+    --datatriad-accent-ink: #0e554f;
+    --datatriad-cyan-strong: #00428a;
+    --datatriad-border: #dddddd;
+    --datatriad-soft: rgba(61, 223, 208, 0.1);
+    --datatriad-gradient:
         radial-gradient(85% 95% at 92% 74%, #98d8d2bf 0%, #98d8d24d 35%, #98d8d200 65%),
         linear-gradient(140deg, #02284b 0% 10%, #062642 28%, #102f5a 55%, #153356 78%, #8ca39f 100%);
 }

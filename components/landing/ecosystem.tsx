@@ -1,4 +1,4 @@
-import { SectionHeading } from './section-heading';
+﻿import { SectionHeading } from './section-heading';
 import Image from 'next/image';
 import { assetPath } from '@/lib/asset-path';
 
@@ -25,7 +25,7 @@ const ecosystemItems = [
 
 export function AcademyEcosystemSection() {
     return (
-        <section className='bg-[var(--datastitch-cream)] px-6 py-20 sm:px-10 lg:px-16'>
+        <section className='bg-[var(--datatriad-cream)] px-6 py-20 sm:px-10 lg:px-16'>
             <div className='mx-auto max-w-6xl'>
                 <SectionHeading
                     title='The Academy Ecosystem'
@@ -37,7 +37,7 @@ export function AcademyEcosystemSection() {
                     {ecosystemItems.map((item) => (
                         <article
                             key={item.title}
-                            className='rounded-2xl border border-2 border-[var(--datastitch-border)] bg-white'
+                            className='rounded-2xl border border-2 border-[var(--datatriad-border)] bg-white'
                         >
                             <Image
                                 src={assetPath(item.image)}
@@ -46,11 +46,11 @@ export function AcademyEcosystemSection() {
                                 height={185}
                                 className='h-40 w-full rounded-xl object-cover'
                             />
-                            <div className='p-6 border-t-2 border-[var(--datastitch-border)]'>
-                                <h3 className='text-xl font-bold text-[var(--datastitch-ink)]'>
+                            <div className='p-6 border-t-2 border-[var(--datatriad-border)]'>
+                                <h3 className='text-xl font-bold text-[var(--datatriad-ink)]'>
                                     {item.title}
                                 </h3>
-                                <p className='mt-2 text-sm text-[var(--datastitch-muted)]'>
+                                <p className='mt-2 text-sm text-[var(--datatriad-muted)]'>
                                     {item.description}
                                 </p>
                             </div>

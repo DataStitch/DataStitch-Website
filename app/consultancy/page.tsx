@@ -1,4 +1,4 @@
-import { ConsultancyNav } from '@/components/consultancy/consultancy-nav';
+﻿import { ConsultancyNav } from '@/components/consultancy-nav';
 import { ConsultancyHero } from '@/components/consultancy/consultancy-hero';
 import { ConsultancyServicesTagline } from '@/components/consultancy/consultancy-services-tagline';
 import { ConsultancyServiceSection } from '@/components/consultancy/consultancy-service-section';
@@ -9,9 +9,9 @@ import { FractionalDemo } from '@/components/consultancy/fractional-demo';
 import { VirtualMentorDemo } from '@/components/consultancy/virtual-mentor-demo';
 import { ConsultancyServicesOverview } from '@/components/consultancy/consultancy-services-overview';
 import { ConsultancyEngagementJourney } from '@/components/consultancy/consultancy-engagement-journey';
-import { ConsultancyWhySuchure } from '@/components/consultancy/consultancy-why-suchure';
+import { ConsultancyWhyDataTriad } from '@/components/consultancy/consultancy-why-datatriad';
 import { ConsultancyTestimonials } from '@/components/consultancy/consultancy-testimonials';
-import { ConsultancyFooter } from '@/components/consultancy/consultancy-footer';
+import { ConsultancyFooter } from '@/components/consultancy-footer';
 
 export default function ConsultancyPage() {
   return (
@@ -53,7 +53,7 @@ export default function ConsultancyPage() {
       <ConsultancyServiceSection
         label="AI Ethics Retainer"
         headline="Continuous governance. Measurable assurance."
-        description="Our flagship monthly engagement. A senior Suchure reviewer is assigned to your organisation. We monitor your production models for bias drift, distribution shift, and wellbeing indicators — and deliver a board-grade Power BI dashboard your CDO and CIO can open in real time."
+        description="Our flagship monthly engagement. A senior DataTriad reviewer is assigned to your organisation. We monitor your production models for bias drift, distribution shift, and wellbeing indicators — and deliver a board-grade Power BI dashboard your CDO and CIO can open in real time."
         features={[
           {
             title: 'Live Power BI retainer dashboard',
@@ -140,7 +140,7 @@ export default function ConsultancyPage() {
       <ConsultancyServiceSection
         label="Virtual Mentor"
         headline="Senior expertise. On-demand. Within the week."
-        description="When your team hits a wall and needs a senior voice in the room — fast. Book a 30 or 60-minute session with a Suchure practitioner. Come with a specific problem. Leave with a concrete answer. Every session is recorded, transcribed, and added to your internal knowledge base."
+        description="When your team hits a wall and needs a senior voice in the room — fast. Book a 30 or 60-minute session with a DataTriad practitioner. Come with a specific problem. Leave with a concrete answer. Every session is recorded, transcribed, and added to your internal knowledge base."
         features={[
           {
             title: 'Book in under 5 minutes',
@@ -167,7 +167,7 @@ export default function ConsultancyPage() {
 
       <ConsultancyServicesOverview />
       <ConsultancyEngagementJourney />
-      <ConsultancyWhySuchure />
+      <ConsultancyWhyDataTriad />
       <ConsultancyTestimonials />
       <ConsultancyFooter />
     </main>

@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+﻿import type { ReactNode } from 'react';
 import Link from 'next/link';
 import { ConsultancyFeatureItem } from './consultancy-feature-item';
 
@@ -33,7 +33,7 @@ export function ConsultancyServiceSection({
   const textCol = (
     <div className="flex flex-col justify-center space-y-6 py-4">
       {/* Label badge */}
-      <span className="inline-flex w-fit rounded-full border border-[var(--datastitch-accent)]/30 bg-[var(--datastitch-accent)]/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-[var(--datastitch-accent-ink)]">
+      <span className="inline-flex w-fit rounded-full border border-[var(--datatriad-accent)]/30 bg-[var(--datatriad-accent)]/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-[var(--datatriad-accent-ink)]">
         {label}
       </span>
 
@@ -54,7 +54,7 @@ export function ConsultancyServiceSection({
       <div>
         <Link
           href={ctaHref}
-          className="inline-flex rounded-full border border-[var(--datastitch-accent)] px-6 py-2.5 text-sm font-semibold text-[var(--datastitch-accent-ink)] transition hover:bg-[var(--datastitch-accent)] hover:text-white"
+          className="inline-flex rounded-full border border-[var(--datatriad-accent)] px-6 py-2.5 text-sm font-semibold text-[var(--datatriad-accent-ink)] transition hover:bg-[var(--datatriad-accent)] hover:text-white"
         >
           {ctaLabel}
         </Link>

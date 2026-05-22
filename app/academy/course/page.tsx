@@ -1,14 +1,14 @@
-import { AcademyCourseDetailHero } from "@/components/academy/academy-course-detail-hero";
+﻿import { AcademyCourseDetailHero } from "@/components/academy/academy-course-detail-hero";
 import { NextStepCta } from "@/components/academy/academy-next-step-cta";
-import { FooterSection } from "@/components/landing/footer";
-import { TopNav } from "@/components/landing/top-nav";
+import { FooterSection } from "@/components/footer";
+import { TopNav } from "@/components/top-nav";
 import { getAcademyCoursePageData } from "@/lib/academy-course-page";
 
 export default async function AcademyCoursePage() {
   const coursePageData = await getAcademyCoursePageData();
 
   return (
-    <div className="bg-[var(--datastitch-bg)] text-[var(--datastitch-ink)]">
+    <div className="bg-[var(--datatriad-bg)] text-[var(--datatriad-ink)]">
       <TopNav />
       <AcademyCourseDetailHero
         breadcrumb={coursePageData.breadcrumb}

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "datastitch | Governance-first AI training & advisory",
+  title: "datatriad | Governance-first AI training & advisory",
   description:
-    "datastitch equips data professionals and regulated organisations with governance-first AI capabilities.",
+    "datatriad equips data professionals and regulated organisations with governance-first AI capabilities.",
 };
 
 export default function RootLayout({

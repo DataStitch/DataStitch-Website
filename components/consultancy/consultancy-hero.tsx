@@ -1,18 +1,18 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import { HeroGovernanceCard } from './hero-governance-card';
 import { HeroWellbeingCard } from './hero-wellbeing-card';
 import { HeroFloatingCards } from './hero-floating-cards';
 
 export function ConsultancyHero() {
   return (
-    <section className="relative overflow-hidden [background:var(--datastitch-gradient)] px-6 pb-24 pt-20 sm:px-10 lg:px-16">
+    <section className="relative overflow-hidden [background:var(--datatriad-gradient)] px-6 pb-24 pt-20 sm:px-10 lg:px-16">
       <div className="mx-auto max-w-6xl">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Text column */}
           <div className="max-w-xl space-y-6">
             <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-[3.25rem]">
               Close the governance gap.{' '}
-              <span className="text-[var(--datastitch-accent)]">Prove your AI is audit-ready.</span>
+              <span className="text-[var(--datatriad-accent)]">Prove your AI is audit-ready.</span>
             </h1>
             <p className="text-base leading-relaxed text-white/75 sm:text-lg">
               Five engagement models for regulated leaders — from rapid diagnostics to embedded
@@ -20,7 +20,7 @@ export function ConsultancyHero() {
             </p>
             <Link
               href="/consultation"
-              className="inline-flex rounded-full bg-[var(--datastitch-accent)] px-7 py-3.5 text-sm font-semibold text-[var(--datastitch-accent-ink)] transition hover:brightness-110"
+              className="inline-flex rounded-full bg-[var(--datatriad-accent)] px-7 py-3.5 text-sm font-semibold text-[var(--datatriad-accent-ink)] transition hover:brightness-110"
             >
               Book Consultation Call
             </Link>

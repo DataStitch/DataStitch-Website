@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 
 type NextStepCtaProps = {
     title?: string;
@@ -46,7 +46,7 @@ export function NextStepCta(props: NextStepCtaProps) {
                     <div className='mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row'>
                         <Link
                             href={primaryActionHref}
-                            className='inline-flex min-h-12 min-w-56 items-center justify-center rounded-full bg-[var(--datastitch-accent)] px-8 text-base font-semibold text-[#0d3f44] transition hover:brightness-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70'
+                            className='inline-flex min-h-12 min-w-56 items-center justify-center rounded-full bg-[var(--datatriad-accent)] px-8 text-base font-semibold text-[#0d3f44] transition hover:brightness-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70'
                         >
                             {primaryActionLabel}
                         </Link>

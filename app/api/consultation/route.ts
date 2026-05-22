@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+﻿import { NextResponse } from "next/server";
 
 type ConsultationPayload = {
   firstName: string;
@@ -58,7 +58,7 @@ export async function POST(request: Request) {
     role: payload.role?.trim() ?? "",
     message: payload.message.trim(),
     submittedAt: new Date().toISOString(),
-    source: "datastitch-landing",
+    source: "datatriad-landing",
   };
 
   if (

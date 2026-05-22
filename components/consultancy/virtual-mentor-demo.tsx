@@ -1,4 +1,4 @@
-const slots = [
+﻿const slots = [
   { time: '9:00 AM', available: false },
   { time: '10:30 AM', available: true },
   { time: '1:00 PM', available: true },
@@ -32,7 +32,7 @@ export function VirtualMentorDemo() {
               disabled={!s.available}
               className={`rounded-lg border py-2 text-xs font-medium transition ${
                 s.available
-                  ? 'border-[var(--datastitch-accent)]/30 bg-[var(--datastitch-accent)]/5 text-[var(--datastitch-accent-ink)] hover:bg-[var(--datastitch-accent)]/15'
+                  ? 'border-[var(--datatriad-accent)]/30 bg-[var(--datatriad-accent)]/5 text-[var(--datatriad-accent-ink)] hover:bg-[var(--datatriad-accent)]/15'
                   : 'border-gray-100 bg-gray-50 text-gray-300 cursor-not-allowed'
               }`}
             >

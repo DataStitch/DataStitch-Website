@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const fallbackRepository = "suchure_landing";
+const fallbackRepository = "datatriad_landing";
 const repository = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? fallbackRepository;
 const isUserOrOrgPages = repository.endsWith(".github.io");
 const isProductionBuild = process.env.NODE_ENV === "production";

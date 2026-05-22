@@ -1,18 +1,18 @@
-import { HeroCardsCluster } from "./hero-cards-cluster";
+﻿import { HeroCardsCluster } from "./hero-cards-cluster";
 import Image from "next/image";
 import { assetPath } from "@/lib/asset-path";
 import Link from "next/link";
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden [background:var(--datastitch-gradient)] px-6 pb-20 pt-24 sm:px-10 lg:px-16 min-h-[600px] flex">
+    <section className="relative overflow-hidden [background:var(--datatriad-gradient)] px-6 pb-20 pt-24 sm:px-10 lg:px-16 min-h-[600px] flex">
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl">
             Close the governance gap before it becomes a risk.
           </h1>
           <p className="mt-5 text-lg text-white/80 sm:text-xl">
-            DataStitch equips data professionals with governance-first AI skills and helps organisations
+            DataTriad equips data professionals with governance-first AI skills and helps organisations
             review, strengthen, and evidence responsible AI delivery.
           </p>
           <div className="mt-8 flex justify-center">
@@ -26,7 +26,7 @@ export function HeroSection() {
               />
               <Link
                 href="/consultation"
-                className="w-full rounded-full bg-[var(--datastitch-accent)] px-6 py-3 text-center text-sm font-semibold text-[var(--datastitch-accent-ink)] sm:w-auto"
+                className="w-full rounded-full bg-[var(--datatriad-accent)] px-6 py-3 text-center text-sm font-semibold text-[var(--datatriad-accent-ink)] sm:w-auto"
               >
                 Book Consultation Call
               </Link>

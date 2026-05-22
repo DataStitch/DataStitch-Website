@@ -1,4 +1,4 @@
-import Image from 'next/image';
+﻿import Image from 'next/image';
 import { assetPath } from '@/lib/asset-path';
 
 const services = [
@@ -54,7 +54,7 @@ export function ConsultancyServicesOverview() {
 
               {/* Content */}
               <div className="p-4">
-                <p className="text-sm font-bold text-[var(--datastitch-accent)]">{s.name}</p>
+                <p className="text-sm font-bold text-[var(--datatriad-accent)]">{s.name}</p>
                 <p className="mt-1.5 text-sm leading-snug text-gray-500">{s.description}</p>
               </div>
             </div>

@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { assetPath } from "@/lib/asset-path";
 import type { AcademyCoursePageData } from "@/components/academy/types";
@@ -34,7 +34,7 @@ export function AcademyCourseDetailHero({ breadcrumb, hero }: AcademyCourseDetai
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <Link
                 href={hero.ctaHref}
-                className="inline-flex min-h-12 items-center justify-center rounded-full bg-[var(--datastitch-accent)] px-7 text-base font-semibold text-[var(--datastitch-accent-ink)] transition hover:brightness-105"
+                className="inline-flex min-h-12 items-center justify-center rounded-full bg-[var(--datatriad-accent)] px-7 text-base font-semibold text-[var(--datatriad-accent-ink)] transition hover:brightness-105"
               >
                 {hero.ctaLabel}
               </Link>

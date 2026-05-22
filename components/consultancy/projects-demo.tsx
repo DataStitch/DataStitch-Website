@@ -1,4 +1,4 @@
-const milestones = [
+﻿const milestones = [
   { action: 'Discovery & Architecture Review', date: '12 Mar 2026, 09:41', done: true },
   { action: 'Governance Framework Design', date: '13 Mar 2026, 11:02', done: true },
   { action: 'Fabric Workspace Provisioning', date: '15 Mar 2026, 14:30', done: true },
@@ -21,9 +21,9 @@ export function ProjectsDemo() {
             {/* Dot */}
             <div className={`relative z-10 mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full border-2 ${
               m.inProgress
-                ? 'border-[var(--datastitch-accent)] bg-white'
+                ? 'border-[var(--datatriad-accent)] bg-white'
                 : m.done
-                ? 'border-[var(--datastitch-accent)] bg-[var(--datastitch-accent)]'
+                ? 'border-[var(--datatriad-accent)] bg-[var(--datatriad-accent)]'
                 : 'border-gray-200 bg-white'
             }`}>
               {m.done && !m.inProgress && (
@@ -32,7 +32,7 @@ export function ProjectsDemo() {
                 </svg>
               )}
               {m.inProgress && (
-                <div className="h-1.5 w-1.5 rounded-full bg-[var(--datastitch-accent)]" />
+                <div className="h-1.5 w-1.5 rounded-full bg-[var(--datatriad-accent)]" />
               )}
             </div>
 

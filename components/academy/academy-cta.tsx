@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 
 export function AcademyCta() {
     return (
@@ -16,7 +16,7 @@ export function AcademyCta() {
                     <div className='mt-10'>
                         <Link
                             href='/consultation'
-                            className='inline-flex items-center gap-2 rounded-full bg-[var(--datastitch-accent)] px-6 py-3 text-base font-semibold text-[var(--datastitch-accent-ink)]'
+                            className='inline-flex items-center gap-2 rounded-full bg-[var(--datatriad-accent)] px-6 py-3 text-base font-semibold text-[var(--datatriad-accent-ink)]'
                         >
                             Start Assessment
                             <span aria-hidden='true'>↗</span>

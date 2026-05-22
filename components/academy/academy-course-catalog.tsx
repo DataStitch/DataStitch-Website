@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useMemo, useState } from "react";
 import type { AcademyCourse } from "@/components/academy/types";
@@ -80,15 +80,15 @@ export function AcademyCourseCatalog({ courses }: AcademyCourseCatalogProps) {
   };
 
   return (
-    <section id="academy-courses" className="bg-[var(--datastitch-bg)] px-6 py-16 sm:px-10 lg:px-16">
+    <section id="academy-courses" className="bg-[var(--datatriad-bg)] px-6 py-16 sm:px-10 lg:px-16">
       <div className="mx-auto max-w-6xl">
-        <div className="rounded-3xl border border-[var(--datastitch-border)] bg-white p-5 sm:p-6">
-          <div className="flex flex-col gap-4 border-b border-[var(--datastitch-border)] pb-4 sm:flex-row sm:items-center sm:justify-between">
-            <p className="text-sm font-semibold text-[var(--datastitch-ink)]">Filter By ({totalActiveFilters})</p>
+        <div className="rounded-3xl border border-[var(--datatriad-border)] bg-white p-5 sm:p-6">
+          <div className="flex flex-col gap-4 border-b border-[var(--datatriad-border)] pb-4 sm:flex-row sm:items-center sm:justify-between">
+            <p className="text-sm font-semibold text-[var(--datatriad-ink)]">Filter By ({totalActiveFilters})</p>
             <button
               type="button"
               onClick={clearFilters}
-              className="w-fit text-sm font-medium text-[var(--datastitch-cyan-strong)]"
+              className="w-fit text-sm font-medium text-[var(--datatriad-cyan-strong)]"
             >
               Clear all
             </button>
@@ -96,7 +96,7 @@ export function AcademyCourseCatalog({ courses }: AcademyCourseCatalogProps) {
 
           <div className="mt-4 grid gap-3 md:grid-cols-2 lg:grid-cols-5">
             <select
-              className="rounded-lg border border-[var(--datastitch-border)] bg-white px-3 py-2 text-sm text-[var(--datastitch-ink)]"
+              className="rounded-lg border border-[var(--datatriad-border)] bg-white px-3 py-2 text-sm text-[var(--datatriad-ink)]"
               value={categoryFilter}
               onChange={(event) => setCategoryFilter(event.target.value as "All" | AcademyCourse["category"])}
             >
@@ -107,7 +107,7 @@ export function AcademyCourseCatalog({ courses }: AcademyCourseCatalogProps) {
             </select>
 
             <select
-              className="rounded-lg border border-[var(--datastitch-border)] bg-white px-3 py-2 text-sm text-[var(--datastitch-ink)]"
+              className="rounded-lg border border-[var(--datatriad-border)] bg-white px-3 py-2 text-sm text-[var(--datatriad-ink)]"
               value={levelFilter}
               onChange={(event) => setLevelFilter(event.target.value as "All" | AcademyCourse["level"])}
             >
@@ -118,7 +118,7 @@ export function AcademyCourseCatalog({ courses }: AcademyCourseCatalogProps) {
             </select>
 
             <select
-              className="rounded-lg border border-[var(--datastitch-border)] bg-white px-3 py-2 text-sm text-[var(--datastitch-ink)]"
+              className="rounded-lg border border-[var(--datatriad-border)] bg-white px-3 py-2 text-sm text-[var(--datatriad-ink)]"
               value={durationFilter}
               onChange={(event) => setDurationFilter(event.target.value as "All" | "0-4 weeks" | "5-8 weeks" | "9+ weeks")}
             >
@@ -132,11 +132,11 @@ export function AcademyCourseCatalog({ courses }: AcademyCourseCatalogProps) {
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               placeholder="Search courses or instructors"
-              className="rounded-lg border border-[var(--datastitch-border)] px-3 py-2 text-sm text-[var(--datastitch-ink)] placeholder:text-[var(--datastitch-muted)]"
+              className="rounded-lg border border-[var(--datatriad-border)] px-3 py-2 text-sm text-[var(--datatriad-ink)] placeholder:text-[var(--datatriad-muted)]"
             />
 
             <select
-              className="rounded-lg border border-[var(--datastitch-border)] bg-white px-3 py-2 text-sm text-[var(--datastitch-ink)]"
+              className="rounded-lg border border-[var(--datatriad-border)] bg-white px-3 py-2 text-sm text-[var(--datatriad-ink)]"
               value={sortBy}
               onChange={(event) => setSortBy(event.target.value as SortMode)}
             >
@@ -150,8 +150,8 @@ export function AcademyCourseCatalog({ courses }: AcademyCourseCatalogProps) {
         </div>
 
         <div className="mt-8 flex items-center justify-between">
-          <h2 className="text-2xl font-bold text-[var(--datastitch-ink)] sm:text-3xl">All Courses</h2>
-          <p className="text-sm text-[var(--datastitch-muted)]">{filteredCourses.length} result(s)</p>
+          <h2 className="text-2xl font-bold text-[var(--datatriad-ink)] sm:text-3xl">All Courses</h2>
+          <p className="text-sm text-[var(--datatriad-muted)]">{filteredCourses.length} result(s)</p>
         </div>
 
         <div className="mt-6 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
@@ -161,7 +161,7 @@ export function AcademyCourseCatalog({ courses }: AcademyCourseCatalogProps) {
         </div>
 
         {filteredCourses.length === 0 ? (
-          <p className="mt-8 rounded-xl border border-dashed border-[var(--datastitch-border)] bg-white px-5 py-4 text-sm text-[var(--datastitch-muted)]">
+          <p className="mt-8 rounded-xl border border-dashed border-[var(--datatriad-border)] bg-white px-5 py-4 text-sm text-[var(--datatriad-muted)]">
             No courses matched your current filters. Try clearing filters or using a broader search term.
           </p>
         ) : null}

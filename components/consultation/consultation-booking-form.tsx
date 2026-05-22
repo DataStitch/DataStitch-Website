@@ -176,7 +176,7 @@ export function ConsultationBookingForm() {
           selectedTime,
           timezone,
           submittedAt: new Date().toISOString(),
-          source: "suchure-consultation-page",
+          source: "datatriad-consultation-page",
         }),
       });
 

@@ -1,7 +1,7 @@
-const testimonials = [
+﻿const testimonials = [
   {
     quote:
-      "Suchure transformed our AI implementation strategy. We went from 'experimental' to 'enterprise-grade' in less than 6 months.",
+      "DataTriad transformed our AI implementation strategy. We went from 'experimental' to 'enterprise-grade' in less than 6 months.",
     name: 'Chidima Nanao',
     title: 'Chief Data Officer',
     company: 'Global FinTech Group',
@@ -17,7 +17,7 @@ const testimonials = [
   },
   {
     quote:
-      "Having a named Suchure reviewer embedded in our stand-ups means governance is never an afterthought. It's baked in from sprint zero.",
+      "Having a named DataTriad reviewer embedded in our stand-ups means governance is never an afterthought. It's baked in from sprint zero.",
     name: 'Priya Mbanefoh',
     title: 'VP Engineering',
     company: 'RegTech Platform',
@@ -37,7 +37,7 @@ export function ConsultancyTestimonials() {
               {testimonials.map((t) => (
                 <div
                   key={t.initials}
-                  className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-[var(--datastitch-navy)] text-xs font-semibold text-white"
+                  className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-[var(--datatriad-navy)] text-xs font-semibold text-white"
                 >
                   {t.initials}
                 </div>
@@ -71,7 +71,7 @@ export function ConsultancyTestimonials() {
 
               {/* Author */}
               <div className="flex items-center gap-3">
-                <div className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-[var(--datastitch-navy)] text-xs font-semibold text-white">
+                <div className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-[var(--datatriad-navy)] text-xs font-semibold text-white">
                   {t.initials}
                 </div>
                 <div>

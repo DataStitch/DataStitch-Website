@@ -1,13 +1,13 @@
-import { BootcampSection } from "@/components/landing/bootcamps";
+﻿import { BootcampSection } from "@/components/landing/bootcamps";
 import { ConsultancySection } from "@/components/landing/consultancy";
 import { CoursesSection } from "@/components/landing/courses";
 import { AcademyEcosystemSection } from "@/components/landing/ecosystem";
 import { FaqSection } from "@/components/landing/faq";
-import { FooterSection } from "@/components/landing/footer";
+import { FooterSection } from "@/components/footer";
 import { HeroSection } from "@/components/landing/hero";
 import { HowItWorksSection } from "@/components/landing/how-it-works";
 import { InstructorsSection } from "@/components/landing/instructors";
-import { TopNav } from "@/components/landing/top-nav";
+import { TopNav } from "@/components/top-nav";
 import { TrustStrip } from "@/components/landing/trust-strip";
 import { TwoPathsSection } from "@/components/landing/two-paths";
 import { simulateFetch } from "@/lib/simulate-fetch";
@@ -57,7 +57,7 @@ export default async function Home() {
   ]);
 
   return (
-    <div className="bg-[var(--datastitch-bg)] text-[var(--datastitch-ink)]">
+    <div className="bg-[var(--datatriad-bg)] text-[var(--datatriad-ink)]">
       <TopNav />
       <div id="home" className="scroll-mt-24">
         <HeroSection />

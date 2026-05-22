@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { ConsultationBookingForm } from "@/components/consultation/consultation-booking-form";
 import { assetPath } from "@/lib/asset-path";
@@ -12,7 +12,7 @@ export default function ConsultationPage() {
             <div className="flex h-full flex-col gap-10">
               <Image
                 src={assetPath("/consultation/consultation-badge-2072f0.png")}
-                alt="Suchure consultation"
+                alt="DataTriad consultation"
                 width={150}
                 height={46}
                 className="h-auto w-[150px]"
@@ -25,7 +25,7 @@ export default function ConsultationPage() {
                 </h1>
                 <p className="text-sm leading-6 text-[#555555]">
                   Discuss your AI governance challenges, model risk exposure, or data strategy
-                  with a Suchure specialist. No sales pitch, just a focused conversation.
+                  with a DataTriad specialist. No sales pitch, just a focused conversation.
                 </p>
               </div>
             </div>
