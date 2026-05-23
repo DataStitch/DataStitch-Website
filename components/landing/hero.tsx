@@ -5,10 +5,10 @@ import Link from "next/link";
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden [background:var(--datatriad-gradient)] px-6 pb-20 pt-24 sm:px-10 lg:px-16 min-h-[600px] flex">
+    <section className="relative overflow-hidden [background:var(--datatriad-gradient)] px-6 pb-20 pt-10 sm:px-10 lg:px-16 min-h-[600px] flex">
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto max-w-3xl text-center">
-          <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl">
+          <h1 className="text-3xl font-bold leading-tight text-white sm:text-5xl md:text-6xl">
             Close the governance gap before it becomes a risk.
           </h1>
           <p className="mt-5 text-lg text-white/80 sm:text-xl">

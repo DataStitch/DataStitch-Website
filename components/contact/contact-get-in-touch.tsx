@@ -105,12 +105,32 @@ export function ContactGetInTouch() {
     if (!agreed) return;
     setStatus('submitting');
     try {
-      await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, email, interest, message }),
+      const action = 'https://script.google.com/macros/s/AKfycbyjMgKEVOs7OUTdVLg76tsfapwYdNtUvGFJksOmKTS9ejWCRa1Wq-eG1WIk8gGewfy8/exec';
+      const payload = new URLSearchParams({
+        Location: typeof window !== 'undefined' ? window.location.pathname : 'contact',
+        sheetName: 'Contact Form Entries',
+        Name: name,
+        Email: email,
+        Interest: interest,
+        Message: message,
       });
+
+      const response = await fetch(action, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
+        body: payload.toString(),
+      });
+
+      if (!response.ok) {
+        throw new Error('Request failed');
+      }
+
       setStatus('success');
+      setName('');
+      setEmail('');
+      setInterest('');
+      setMessage('');
+      setAgreed(false);
     } catch {
       setStatus('error');
     }
